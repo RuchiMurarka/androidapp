@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    tools:background="@android:color/background_dark"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="Congress API"
+        android:textColor="#FFFFFF"
+        android:id="@+id/congress"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp" />
+
+    <TextView
+        android:text="FOUNDATION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/foundation"
+        android:textColor="#ff888888"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/sun" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sun"
+        android:text="SUNLIGHT"
+        android:textColor="#978F80"
+        android:layout_marginStart="15dp"
+        android:layout_above="@+id/foundation"
+        android:layout_toEndOf="@+id/img" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_height="60dp"
+        android:background="@drawable/sunlight"
+        android:layout_width="60dp"
+        android:layout_alignBottom="@+id/foundation"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

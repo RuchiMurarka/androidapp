@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/detailtoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/black"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:text="Committee ID:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/comStar"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/ComIDLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ComIDLabel"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/comid"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right" />
+
+                <TextView
+                    android:text="Name:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ComIDLabel"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="19dp"
+                    android:id="@+id/ComNameLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/comName"
+                    android:layout_alignBaseline="@+id/ComNameLabel"
+                    android:layout_alignBottom="@+id/ComNameLabel"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right" />
+
+                <TextView
+                    android:text="Chamber:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ComNameLabel"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="58dp"
+                    android:id="@+id/ComChamberLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:text="House"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ComChamberLabel"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/comChamber"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"
+                    android:layout_width="wrap_content" />
+
+                <TextView
+                    android:text="Parent Committee:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/ComParentLabel"
+                    android:layout_below="@+id/chamberlogo"
+                    android:layout_alignParentStart="true"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/ComParentLabel"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/comParent"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:text="Contact:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:id="@+id/ComContactLabel"
+                    android:layout_below="@+id/ComParentLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ComContactLabel"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/comContact"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:text="Office:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ComContactLabel"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="23dp"
+                    android:id="@+id/ComOfficeLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/ComOfficeLabel"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/comOffice"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"/>
+
+                <ImageView
+                    android:src="@drawable/click"
+                    android:id="@+id/chamberlogo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignBottom="@+id/comChamber"
+                    android:layout_toStartOf="@+id/comStar" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/star"
+                    android:id="@+id/comStar"
+                    android:layout_marginTop="73dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

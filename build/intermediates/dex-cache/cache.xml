@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_b228cf9cca8d39a46a42901ceb68f2b4ea146ed4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_5898e9afedbb941ae4d749f917ade462f02c87bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_53b4a4c09aee0fac3f2f075845135fd6a27c980a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_06bf441e0980b31f428bbcb7d4ffcf7433242f82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_5f5a307d9cacf5ed60f4f29bea3cdcef02f129d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_b17c3cd28ef23b97b105c7801fd2703eb87e40bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e48523fe9bdd097e0790606733974582207c2978.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_50cd557d246bf5282afaf3cfd71025e1f4344bba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_880f6d8137ca495b665285b13e95b1e3fa8fd95f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5be827f8971b8e472c2cd212803721873c4bd63d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_13c69713eec038099fdebfcd9c0053e031edf29a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_c0c40b9b6ae6cb514a62950878565e5cf097d98f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_478ad16fbfdea9f2e1b091bc0f738ae07d7cf2e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_f54c43f443c0a9a19c4fdc5df00570ff296adab3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_53b4a4c09aee0fac3f2f075845135fd6a27c980a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_bc705851c044f507617ef7ca1a31ad1863b35884.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_06f7962b3d4f0bce502efb039f298887464698ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_5cfcf3e1993a19b04a98599b14a39fd0674d60b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="96bff87a6811fa2be3bee0a50ba1424b3499ef7c">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_58b008394c98b7dd5e3377579c201555a26758ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_39064fc96afd039ad09fcb55cdf0df2b6ca514fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_eebccc7341b9950fea2289642c3a0a334cb52340.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_44ee38cb022708521325b6f3ec13b98c510e8a83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d943dc94740187819ae551ec67de81fa816251bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_5898e9afedbb941ae4d749f917ade462f02c87bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_b228cf9cca8d39a46a42901ceb68f2b4ea146ed4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.18\38da306aafee11459cd935a01d2c92a98dc670a4\library-1.0.18.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\library-1.0.18_2367d20798f16fc07d0356f2b1966dfd0e17a077.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5be827f8971b8e472c2cd212803721873c4bd63d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70950349b2b013766e6082f4cf8361fa66b8b927">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\instant-run_65ca953c6f2054c460b4e318a007708492646c4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_7112bd3caea8bfc52a746cc0b4e16bcaa903ca46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_880f6d8137ca495b665285b13e95b1e3fa8fd95f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_b17c3cd28ef23b97b105c7801fd2703eb87e40bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_5cfcf3e1993a19b04a98599b14a39fd0674d60b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_50cd557d246bf5282afaf3cfd71025e1f4344bba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_44ee38cb022708521325b6f3ec13b98c510e8a83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_bc705851c044f507617ef7ca1a31ad1863b35884.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_7112bd3caea8bfc52a746cc0b4e16bcaa903ca46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_13c69713eec038099fdebfcd9c0053e031edf29a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.18\38da306aafee11459cd935a01d2c92a98dc670a4\library-1.0.18.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\library-1.0.18_2367d20798f16fc07d0356f2b1966dfd0e17a077.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_f54c43f443c0a9a19c4fdc5df00570ff296adab3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_478ad16fbfdea9f2e1b091bc0f738ae07d7cf2e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_5f5a307d9cacf5ed60f4f29bea3cdcef02f129d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_06bf441e0980b31f428bbcb7d4ffcf7433242f82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_c0c40b9b6ae6cb514a62950878565e5cf097d98f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e48523fe9bdd097e0790606733974582207c2978.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_06f7962b3d4f0bce502efb039f298887464698ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d943dc94740187819ae551ec67de81fa816251bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_39064fc96afd039ad09fcb55cdf0df2b6ca514fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Ruchi\AndroidStudioProjects\HW9\HW9\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_eebccc7341b9950fea2289642c3a0a334cb52340.jar" />
+    </item>
+
+</items>

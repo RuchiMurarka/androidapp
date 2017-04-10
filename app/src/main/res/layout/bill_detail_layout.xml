@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/detailtoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/black"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:text="Bill ID:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/BillIDLabel"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/comStar"
+                    android:textStyle="bold"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/BillIDLabel"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/billid"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/billtitle"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"
+                    android:layout_alignTop="@+id/TitleLabel"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/BillTypeLabel"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/billtype"
+                    android:gravity="right"
+                    android:textColor="@android:color/darker_gray"
+                    />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/SponsorLabel"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/sponsor"
+                    android:gravity="right"
+                    android:textColor="@android:color/darker_gray"/>
+
+                <TextView
+                    android:text="text"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/ChamberLabel"
+                    android:id="@+id/chamber"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/StateLabel"
+                    android:id="@+id/status"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/IntroducedOn"
+                    android:id="@+id/introducedon"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/CongressURLLabel"
+                    android:id="@+id/congressurl"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/VersionStatusLabel"
+                    android:id="@+id/versionstatus"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:text="Title:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/TitleLabel"
+                    android:layout_below="@+id/BillIDLabel"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="Sponser:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/SponsorLabel"
+                    android:layout_below="@+id/BillTypeLabel"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="18dp" />
+
+                <TextView
+                    android:text="Chamber:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/ChamberLabel"
+                    android:layout_below="@+id/SponsorLabel"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:text="Status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/StateLabel"
+                    android:layout_below="@+id/ChamberLabel"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="18dp" />
+
+                <TextView
+                    android:text="Introduced On:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/IntroducedOn"
+                    android:layout_below="@+id/StateLabel"
+                    android:layout_marginTop="18dp" />
+
+                <TextView
+                    android:text="Congress URL:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/CongressURLLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/IntroducedOn"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="13dp" />
+
+                <TextView
+                    android:text="Bill URL:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/BillURLLabel"
+                    android:layout_marginTop="11dp"
+                    android:layout_below="@+id/VersionStatusLabel"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="Vesrion Status:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/VersionStatusLabel"
+                    android:layout_marginTop="22dp"
+                    android:layout_below="@+id/CongressURLLabel"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"
+                    android:id="@+id/billurl"
+                    android:layout_alignBaseline="@+id/BillURLLabel"
+                    android:layout_alignBottom="@+id/BillURLLabel"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:text="Bill Type:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/BillTypeLabel"
+                    android:layout_below="@+id/billtitle"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="15dp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/star"
+                    android:id="@+id/comStar"
+
+                    android:layout_marginTop="71dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

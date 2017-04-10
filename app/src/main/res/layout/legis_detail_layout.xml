@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/detailtoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/black"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:src="@drawable/map"
+                    android:id="@+id/website"
+                    android:layout_marginEnd="13dp"
+                    android:layout_alignTop="@+id/twitter"
+                    android:paddingTop="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="40dp"
+                    android:background="@drawable/map" />
+
+
+                <TextView
+                    android:text="Name:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="26dp"
+                    android:textStyle="bold"
+                    android:id="@+id/NameLabel"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/NameLabel"
+                    android:layout_alignEnd="@+id/fb"
+                    android:id="@+id/fullName"
+                    android:layout_alignParentRight="true"
+                    android:gravity="right"
+                    tools:textColor="@android:color/darker_gray" />
+
+                <TextView
+                    android:text="Email:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="23dp"
+                    android:id="@+id/EmailLabel"
+                    android:layout_below="@+id/NameLabel"
+                    android:textStyle="bold"
+                    android:layout_alignStart="@+id/NameLabel"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email"
+                    android:gravity="right"
+                    tools:textColor="@android:color/darker_gray"
+                    android:layout_alignBaseline="@+id/EmailLabel"
+                    android:layout_alignBottom="@+id/EmailLabel"
+                    android:layout_alignStart="@+id/fullName"
+                    android:layout_width="150dp" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/ChamberLabel"
+                    android:layout_alignEnd="@+id/email"
+                    tools:textColor="@android:color/darker_gray"
+                    android:id="@+id/chamber"
+                    android:text="Senate"
+                    android:layout_width="200dp"
+                    android:gravity="right" />
+
+                <TextView
+                    android:text="Contact:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/ContactLabel"
+                    android:layout_below="@+id/ChamberLabel"
+                    android:textStyle="bold"
+                    android:layout_alignStart="@+id/ChamberLabel" />
+
+                <TextView
+                    android:foregroundGravity="right"
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contact"
+                    android:gravity="right"
+                    tools:textColor="@android:color/darker_gray"
+                    android:layout_alignBaseline="@+id/ContactLabel"
+                    android:layout_alignBottom="@+id/ContactLabel"
+                    android:layout_alignStart="@+id/chamber" />
+
+                <TextView
+                    android:text="Start Term:"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ContactLabel"
+                    android:layout_alignStart="@+id/ContactLabel"
+                    android:layout_marginTop="19dp"
+                    android:id= "@+id/startTermLabel"/>
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/startTerm"
+                    android:layout_alignBaseline="@+id/startTermLabel"
+                    android:layout_alignBottom="@+id/startTermLabel"
+                    android:layout_alignStart="@+id/contact"
+                    android:gravity="right"
+                    tools:textColor="@android:color/darker_gray"
+                    />
+
+                <TextView
+                    android:text="End Term:"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/startTermLabel"
+                    android:layout_alignStart="@+id/startTermLabel"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/EndTermLabel"
+                    />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/EndTermLabel"
+                    android:layout_alignEnd="@+id/startTerm"
+                    tools:textColor="@android:color/darker_gray"
+                    android:id="@+id/endTerm"
+                    android:gravity="right"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/TermLabel"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/EndTermLabel"
+                    android:layout_alignEnd="@+id/EndTermLabel"
+                    android:text="Term:"
+                    android:textStyle="bold"
+                    android:layout_alignStart="@+id/EndTermLabel"/>
+
+
+                <TextView
+                    android:text="Office:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/OfficeLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/TermLabel"
+                    android:layout_alignStart="@+id/TermLabel"
+                    android:layout_alignEnd="@+id/ChamberLabel" />
+
+                <TextView
+                    android:text="State:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/StateLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/OfficeLabel"
+                    android:layout_alignStart="@+id/OfficeLabel"
+                    android:layout_alignEnd="@+id/EmailLabel" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/state"
+                    android:gravity="right"
+                    tools:textColor="@android:color/darker_gray"
+                    android:layout_alignBaseline="@+id/StateLabel"
+                    android:layout_alignBottom="@+id/OfficeLabel"
+                    android:layout_alignStart="@+id/office"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:text="Fax:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/FaxLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/StateLabel"
+                    android:layout_alignStart="@+id/StateLabel" />
+
+                <TextView
+                    android:text="TextView"
+                    android:gravity="right"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fax"
+                    tools:textColor="@android:color/darker_gray"
+                    android:layout_alignBaseline="@+id/FaxLabel"
+                    android:layout_alignBottom="@+id/StateLabel"
+                    android:layout_alignStart="@+id/state"
+                    android:layout_alignParentEnd="true" />
+
+
+                <TextView
+                    android:text="Birthday:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/BirthDayLabel"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/FaxLabel"
+                    android:layout_alignStart="@+id/FaxLabel" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/birthday"
+                    tools:textColor="@android:color/darker_gray"
+                    android:layout_alignBaseline="@+id/BirthDayLabel"
+                    android:layout_alignBottom="@+id/FaxLabel"
+                    android:layout_alignStart="@+id/fax"
+                    android:gravity="right"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:text="Party Name:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/partyName"
+                    android:layout_alignTop="@+id/partylogo"
+                    android:layout_alignEnd="@+id/fb"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <ImageView
+                    android:background="@drawable/democratic"
+                    android:id="@+id/partylogo"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_above="@+id/fullName"
+                    android:layout_toStartOf="@+id/partyName" />
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/comStar"
+                    android:layout_alignEnd="@+id/partyName" />
+
+                <TextView
+                    android:text="Chamber:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="31dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/ChamberLabel"
+                    android:layout_below="@+id/EmailLabel"
+                    android:layout_alignStart="@+id/EmailLabel" />
+
+                <ImageView
+                    android:background="@drawable/twitter"
+                    android:id="@+id/twitter"
+                    android:layout_marginEnd="18dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignTop="@+id/fb"
+                    android:layout_toStartOf="@+id/website" />
+
+                <ImageView
+                    android:background="@drawable/star"
+                    android:id="@+id/comStar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="67dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/image" />
+
+                <ImageView
+                    android:background="@drawable/fb"
+                    android:id="@+id/fb"
+                    android:clickable="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_above="@+id/image"
+                    android:layout_toStartOf="@+id/twitter" />
+
+                <ProgressBar
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/progressBar"
+                    android:max="100"
+                    android:layout_alignTop="@+id/TermLabel"
+                    android:layout_alignParentEnd="true" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/office"
+                    android:gravity="right"
+                    tools:textColor="@android:color/darker_gray"
+                    android:layout_above="@+id/StateLabel"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/OfficeLabel"
+                    android:layout_toEndOf="@+id/comStar" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
